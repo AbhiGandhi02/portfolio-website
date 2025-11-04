@@ -21,14 +21,14 @@ const Home = () => {
             {/* Main Heading with Shadows */}
             <div className="relative text-center">
                 {/* Foreground Text */}
-                <h4 className="relative tracking-[5px] z-10 right-3 font-[first] text-black text-6xl sm:text-5xl md:text-6xl lg:text-7xl">
-                    <h4 className={`uppercase text-pretty text-6xl sm:text-7xl md:text-8xl ${darkMode ? "text-[#F1F3DF]" : "text-"} lg:text-8xl mt-2 font-[first]`}>hey, i'm</h4>
-                    <h4 className={`uppercase text-pretty text-6xl sm:text-7xl md:text-8xl ${darkMode ? "text-[#F1F3DF]" : "text-black"} lg:text-8xl mt-2 font-[first]`}>Abhi Gandhi</h4>
+                <h4 className="relative tracking-[5px] z-10 right-3 font-[first] text-black text-5xl sm:text-4xl md:text-5xl lg:text-6xl">
+                    <h4 className={`uppercase text-pretty text-5xl sm:text-6xl md:text-7xl ${darkMode ? "text-[#F1F3DF]" : "text-"} lg:text-7xl mt-2 font-[first]`}>hey, i'm</h4>
+                    <h4 className={`uppercase text-pretty text-5xl sm:text-6xl md:text-7xl ${darkMode ? "text-[#F1F3DF]" : "text-black"} lg:text-7xl mt-2 font-[first]`}>Abhi Gandhi</h4>
                 </h4>
                 {/* Realistic Shadow Effect */}
                 <h4 className={`absolute top-3 tracking-[5px] font-[first] text-[#dda05f83] z-0 text-6xl sm:text-5xl md:text-6xl lg:text-7xl`}>
-                    <h4 className={`uppercase text-pretty text-6xl sm:text-7xl md:text-8xl lg:text-8xl mt-2 font-[first]`}>hey, i'm</h4>
-                    <h4 className={`uppercase text-pretty text-6xl sm:text-7xl md:text-8xl lg:text-8xl mt-2 font-[first]`}>Abhi Gandhi</h4>
+                    <h4 className={`uppercase text-pretty text-5xl sm:text-6xl md:text-7xl lg:text-7xl mt-2 font-[first]`}>hey, i'm</h4>
+                    <h4 className={`uppercase text-pretty text-5xl sm:text-6xl md:text-7xl lg:text-7xl mt-2 font-[first]`}>Abhi Gandhi</h4>
                 </h4>
             </div>
 

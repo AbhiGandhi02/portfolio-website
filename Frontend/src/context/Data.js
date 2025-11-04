@@ -17,7 +17,7 @@ export const Data = [
     description:
       "Creative web portfolio designed with HTML, Tailwind CSS, and React.js. It features modern, responsive layouts and sleek user interfaces. Using Three.js, interactive 3D visualizations bring the design to life. The portfolio demonstrates my skills in front-end development and cutting-edge web technologies.",
     feature: ["HTML", "Tailwind Css", "React", "Three.js", "Node.js"],
-    code: "https://github.com/AbhiGandhi02/Amazing-Portfolio",
+    code: "https://portfolio-website-nine-iota-82.vercel.app/",
     hosting: "https://amazing-portfolio-one.vercel.app/",
   },
   {

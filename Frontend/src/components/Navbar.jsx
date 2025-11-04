@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="fixed flex justify-between items-center z-50 bg-transparent top-0 left-0 right-0 font-[first] backdrop-blur-sm py-8 px-20">
       {/* Logo */}
-      <Link to={"/"} className="text-lg font-bold">
+      <Link to={"/"} className="text-base font-bold">
         abhi.codes
       </Link>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
           <button
             key={link.path}
             onClick={() => handleLinkClick(link.path)}
-            className={`text-base font-medium transition-all duration-300 group relative ${
+            className={`text-sm font-medium transition-all duration-300 group relative ${
               location.pathname === link.path ? "opacity-100" : "opacity-70 hover:opacity-100"
             }`}
           >

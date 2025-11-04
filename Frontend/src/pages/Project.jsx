@@ -13,7 +13,7 @@ const Project = () => {
         <h2
           className={`relative z-10 font-[first] ${
             darkMode ? "text-[#F1F3DF]" : "text-black"
-          } text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight`}
+          } text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight`}
         >
           My Work
         </h2>
@@ -26,7 +26,7 @@ const Project = () => {
 
       {/* Subtitle */}
       <p
-        className={`font-[second] text-lg sm:text-xl md:text-2xl text-center leading-relaxed ${
+        className={`font-[second] text-base sm:text-lg md:text-xl text-center leading-relaxed ${
           darkMode ? "text-[#F1F3DF]/90" : "text-gray-700"
         } max-w-3xl mb-16`}
       >
@@ -35,7 +35,7 @@ const Project = () => {
       </p>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-10 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 w-full">
         {Data.map((item) => (
           <div
             key={item.id}
@@ -48,22 +48,22 @@ const Project = () => {
               <img
                 src={item.image}
                 alt={`${item.name} project`}
-                className="w-full h-52 sm:h-64 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-44 sm:h-56 lg:h-64 object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
 
             {/* Project Details */}
-            <div className="p-6 md:p-7 font-[first] space-y-4">
+            <div className="p-5 md:p-6 font-[first] space-y-3">
               <h1
-                className={`text-xl sm:text-2xl font-bold ${
+                className={`text-lg sm:text-xl font-bold ${
                   darkMode ? "text-[#F1F3DF]" : "text-black"
                 }`}
               >
                 {item.name}
               </h1>
               <h2
-                className={`text-base sm:text-lg leading-relaxed ${
+                className={`text-sm sm:text-base leading-relaxed ${
                   darkMode ? "text-[#F1F3DF]/90" : "text-gray-700"
                 }`}
               >
@@ -86,12 +86,12 @@ const Project = () => {
                 ))}
               </div>
 
-              <div className="flex gap-4 mt-8 pt-4 border-t border-gray-200/10">
+              <div className="flex gap-3 mt-6 pt-3 border-t border-gray-200/10">
                 <a
                   href={item.hosting}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex-1 flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-[second] font-medium rounded-md transition-all duration-300 ${
+                  className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-[second] font-medium rounded-md transition-all duration-300 ${
                     darkMode
                       ? "bg-[#DDA15F] text-black hover:bg-[#DDA15F]/90 hover:shadow-lg hover:-translate-y-0.5"
                       : "bg-[#DDA15F] text-white hover:bg-[#DDA15F]/90 hover:shadow-lg hover:-translate-y-0.5"
@@ -104,7 +104,7 @@ const Project = () => {
                   href={item.code}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex-1 flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-[second] font-medium rounded-md border-2 border-[#DDA15F] text-[#DDA15F] hover:bg-[#DDA15F] transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 ${
+                  className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-[second] font-medium rounded-md border-2 border-[#DDA15F] text-[#DDA15F] hover:bg-[#DDA15F] transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 ${
                     darkMode ? "hover:text-black" : "hover:text-white"
                   }`}
                 >

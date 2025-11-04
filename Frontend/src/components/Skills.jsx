@@ -29,7 +29,7 @@ const Skills = () => {
         <h2
           className={`relative z-10 font-[first] ${
             darkMode ? "text-[#F1F3DF]" : "text-black"
-          } text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight`}
+          } text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight`}
         >
           What I Do
         </h2>
@@ -47,7 +47,7 @@ const Skills = () => {
             {/* Service Title */}
             <div className="relative mb-8">
               <h3
-                className={`text-3xl md:text-4xl lg:text-5xl font-[first] font-bold ${
+                className={`text-2xl md:text-3xl lg:text-4xl font-[first] font-bold ${
                   darkMode ? "text-[#F1F3DF]" : "text-black"
                 }`}
               >
@@ -58,7 +58,7 @@ const Skills = () => {
 
             {/* Service Description */}
             <p
-              className={`font-[second] text-lg sm:text-xl md:text-2xl leading-relaxed ${
+              className={`font-[second] text-base sm:text-lg md:text-xl leading-relaxed ${
                 darkMode ? "text-[#F1F3DF]/90" : "text-gray-700"
               } mb-10 max-w-4xl mx-auto`}
             >
