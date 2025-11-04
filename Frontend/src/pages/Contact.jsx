@@ -50,7 +50,7 @@ const Contact = () => {
           </h4>
           {/*  Shadow Effect */}
           <h4 className="absolute top-3 tracking-[5px] font-[first] text-[#dda05f83] z-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-            <span className="uppercase text-pretty text-6xl sm:text-7xl md:text-8xl lg:text-8xl mt-2 font-[first]">
+            <span className="uppercase text-pretty text-5xl sm:text-6xl md:text-7xl lg:text-7xl mt-2 font-[first]">
               contact
             </span>
           </h4>
