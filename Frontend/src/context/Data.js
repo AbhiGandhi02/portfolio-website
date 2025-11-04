@@ -4,7 +4,7 @@ import Mentee from "../assets/Mentee.png";
 import notes from "../assets/notes-vault.png";
 import recipe from "../assets/recipe-finder.png";
 import stock from "../assets/stock-tracker.png";
-import sculptAI from "../assets/Sculpt-ai.png";
+import sculptAI from "../assets/Sculpt-AI.png";
 
 // certificate
 // import certificate1 from "../certificates/Certificate1.png";
