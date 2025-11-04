@@ -23,7 +23,7 @@ const Contact = () => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:5000/send-email",
+        "https://portfolio-website-kcov.onrender.com/send-email",
         formData
       );
       toast.success(response.data.message);
