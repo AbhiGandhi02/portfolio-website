@@ -17,8 +17,8 @@ export const Data = [
     description:
       "Creative web portfolio designed with HTML, Tailwind CSS, and React.js. It features modern, responsive layouts and sleek user interfaces. Using Three.js, interactive 3D visualizations bring the design to life. The portfolio demonstrates my skills in front-end development and cutting-edge web technologies.",
     feature: ["HTML", "Tailwind Css", "React", "Three.js", "Node.js"],
-    code: "https://portfolio-website-nine-iota-82.vercel.app/",
-    hosting: "https://amazing-portfolio-one.vercel.app/",
+    code: "https://github.com/AbhiGandhi02/portfolio-website/",
+    hosting: "https://portfolio-website-nine-iota-82.vercel.app/",
   },
   {
     id: 2,
@@ -82,7 +82,7 @@ export const Data = [
       "Mongodb",
     ],
     code: "https://github.com/AbhiGandhi02/notes-vault",
-    hosting: "notes-vault-beta.vercel.app",
+    hosting: "https://notes-vault-beta.vercel.app/",
   },
   {
     id: 7,
